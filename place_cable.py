@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Example of placing a cable (span equipment) in the route network via the
-OpenFTTH API gateway, using the same auth flow as graphql_client.py.
+OpenFTTH API gateway.
 
 Usage:
     python3 place_cable.py \
