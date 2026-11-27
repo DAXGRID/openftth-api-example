@@ -1,1 +1,22 @@
 # OpenFTTH Api Example
+
+Example Python script for calling the OpenFTTH GraphQL API. It authenticates with OAuth2 client credentials and only uses the Python standard library.
+
+## Place a cable
+
+`place_cable.py` places a cable (span equipment) in the route network along the given route segments.
+
+```sh
+python3 place_cable.py \
+    --client-id example-client \
+    --client-secret 7f3c9a1e-52b4-4d8e-a6f0-1b2c3d4e5f60 \
+    --token-endpoint https://auth.example.com/realms/openftth/protocol/openid-connect/token \
+    --graphql-address https://api.example.com/graphql \
+    --span-equipment-id ce93f216-f7ab-446a-b67d-227b8cd2a626 \
+    --span-equipment-specification-id 64023c04-c866-4e6f-9978-770bbb69488d \
+    --route-segment-ids 2d3b1821-fefd-47b9-a0fe-808a792bf15d \
+    --marking-color "ORANGE MED RØD STRIBE" \
+    --marking-text 1234
+```
+
+Optional arguments: `--span-equipment-id` (a random ID is used if you leave it out), `--manufacturer-id`, `--description`, `--marking-color`, `--marking-text`.
