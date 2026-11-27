@@ -9,7 +9,7 @@ Example Python script for calling the OpenFTTH GraphQL API. It authenticates wit
 ```sh
 python3 place_cable.py \
     --client-id example-client \
-    --client-secret 7f3c9a1e-52b4-4d8e-a6f0-1b2c3d4e5f60 \
+    --client-secret my-super-duper-secret \
     --token-endpoint https://auth.example.com/realms/openftth/protocol/openid-connect/token \
     --graphql-address https://api.example.com/graphql \
     --span-equipment-id ce93f216-f7ab-446a-b67d-227b8cd2a626 \
