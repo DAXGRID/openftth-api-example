@@ -14,7 +14,7 @@ python3 place_cable.py \
     --graphql-address https://api.example.com/graphql \
     --span-equipment-id ce93f216-f7ab-446a-b67d-227b8cd2a626 \
     --span-equipment-specification-id 64023c04-c866-4e6f-9978-770bbb69488d \
-    --route-segment-ids 2d3b1821-fefd-47b9-a0fe-808a792bf15d \
+    --route-segment-ids 14d7b0d2-e7e8-43c8-9b14-c3f359bf7df6 2660c452-5b6e-4a5d-a5cd-6306d702734f \
     --marking-color "ORANGE MED RØD STRIBE" \
     --marking-text 1234
 ```
